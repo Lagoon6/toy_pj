@@ -1,0 +1,35 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay","안녕","안녕하세요"],
+     "responses": ["안녕", "하이", "오랜만이야","Hi"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["잘가", "나갈게", "잘있어"],
+     "responses": ["다음에 봐", "행운을 빌게!", "잘가, 꼭 다시와"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help","고마워","짱이야"],
+     "responses": ["Happy to help!", "Any time!", "천만에 말씀", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?","너 누구야?","너의 소개를 부탁해" ],
+     "responses": ["나는 제작자 완영이야. 너의 챗봇 도우미지", "I'm 완영, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["너 이름이 머야?", "what should I call you", "whats your name?","이름이 머야?","이름"],
+    "responses": ["You can call me 완영.", "I'm 완영!", "Just call me as 완영"]
+    },
+    {"tag": "help",
+    "patterns": ["도와줄 수 있어?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please","도와줘","도와주세요","도움이 필요해요"],
+    "responses": ["내가 도와줄 것을 말해줘", "무슨 일이야?", "물론이지. 내가 널 도와줄게"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account","한화 큐셀의 태양광 셀을 구매하고 싶어!","태양광 구매 가능해?","태양광 얼마해?"],
+    "responses": ["큐셀의 제품 가격은 고객센터나 전화를 해줬으면해 .. 미안해", "이건 내가 답하기가 어려워ㅠㅠ 미안해.."]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    }
+]
+}
